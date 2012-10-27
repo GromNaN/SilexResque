@@ -1,0 +1,18 @@
+{
+    "name": "grom/silex-resque",
+    "require": {
+        "silex/silex": "1.0.*@dev",
+        "chrisboulton/php-resque": "1.2",
+        "symfony/console": "2.1.*"
+    },
+    "authors": [
+        {
+            "name": "Jérôme Tamarelle",
+            "email": "jerome@tamarelle.net"
+        }
+    ],
+    "target-dir": "Grom\\SilexResque",
+    "autoload": {
+        "psr-0": { "Grom\\SilexResque\\": "" }
+    }
+}
