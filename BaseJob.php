@@ -4,7 +4,7 @@ namespace Grom\SilexResque;
 
 use Silex\Application;
 
-abstract BaseJob
+abstract class BaseJob
 {
     /**
      * @var Silex\Application Context application
