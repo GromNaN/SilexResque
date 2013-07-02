@@ -11,7 +11,7 @@
             "email": "jerome@tamarelle.net"
         }
     ],
-    "target-dir": "Grom\\SilexResque",
+    "target-dir": "Grom/SilexResque",
     "autoload": {
         "psr-0": { "Grom\\SilexResque\\": "" }
     }
