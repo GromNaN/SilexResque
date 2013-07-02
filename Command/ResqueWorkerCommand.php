@@ -19,7 +19,7 @@ class ResqueWorkerCommand extends Command
     public function __construct(Application $app = null)
     {
         parent::__construct();
-        $this->app;
+        $this->app = $app;
     }
 
     protected function configure()
@@ -70,6 +70,6 @@ EOT
 
     public function beforePerform(Resque_Job $job)
     {
-        $job->instance->app = $this->app;
+        $job->getInstance()->app = $this->app;
     }
 }
